@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+
+        .menu {
+            list-style-type: none;
+            padding-right: 20px;
+            border-right:  1px solid #ededed;
+
+            > li {
+                display: inline-block;
+
+                > a {
+                    display: block;
+                    font-size: 16px;
+                    color: #222;
+                    padding: 0 12px;
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            color: #222;
+            font-size: 16px;
+
+            > button {
+                cursor: pointer;
+                border: none;
+                outline: none;
+            }
+        }
+
+        .login-button {
+            padding: 0 6px;
+            background-color: #fff;
+            border: 1px solid black;
+        }
+
+        .sign-up {
+            padding: 5px 8px;
+            border: 1px solid #e1e1e1;
+            margin-left: 7px;
+        }
+    }
+}
